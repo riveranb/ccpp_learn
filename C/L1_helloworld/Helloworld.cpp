@@ -1,11 +1,13 @@
 // lesson: hello world, and variable, array, loop
 // declare variable of integer array, print it using for loop
 
+// 引用 stdio.h 中提到的相關 library工具函式/定義
 #include <stdio.h>
-#include <iostream>
 
+// 程式執行起點/入口
 void main()
 {
+	// 呼叫列印工具函式
 	printf("Hello world!\n");
 
 	// 宣告陣列變數(靜態整數陣列宣告), 含有10個元素
