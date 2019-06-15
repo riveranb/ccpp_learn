@@ -19,7 +19,9 @@ void main()
 	// i++  =>  i;  i = i + 1;
 	// ++i  =>  i = i + 1; i;
 
+	// 預先建立Fibonacci數列結果陣列
 	unsigned long long int F[50];
+	// 計算每一個 Fibonacci, F(i)
 	for (int i = 0; i < 50; i++)
 	{
 		if (i == 0)
@@ -38,7 +40,7 @@ void main()
 
 	for (int i = 0; i < 50; ++i)
 	{
-		printf("%I64u\n", F[i]);
+		printf("%I64u\n", F[i]); // 列印出 64bit 整數數值
 	}
 
 	getchar();
