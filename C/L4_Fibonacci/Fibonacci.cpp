@@ -15,6 +15,10 @@ int fibonacci(int input)
 		// F(1) = 1
 		return 1;
 	}
+	else if (input < 0)
+	{
+		return 0;
+	}
 	else
 	{
 		// input = n
@@ -55,7 +59,7 @@ void main()
 	//result = fibonacci(4);
 	//printf("F(4) = %d\n", result);
 
-	for (int i = 0; i < 47; ++i)
+	for (int i = 0; i < 45; ++i)
 	{
 		printf("F(%d) = %d\n", i, fibonacci(i));
 	}
